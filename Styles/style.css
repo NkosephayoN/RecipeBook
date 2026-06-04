@@ -1,0 +1,358 @@
+/* Name: Nkosephayo Nxumalo , Student Number:227237781 */
+
+body
+{
+  font-family: Verdana, sans-serif;
+  background-color: #fbe8a6;
+  
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    margin:0.5em;
+}
+
+h1
+{
+   text-align: center;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   color: #f4a261;
+}
+
+h2
+{
+    text-align: center;
+    font-style: italic;
+    color: #6b4226;
+    
+}
+
+#menu
+{
+ 
+  
+    list-style-type: none;
+    
+}
+
+#menu li
+{
+
+    display: inline;
+    margin-right: 2em;
+    
+}
+
+#menu a
+{
+
+    text-decoration-line: none;
+    color: #e76f51;
+}
+
+#menu a:hover
+{
+    color: #f4a261;
+}
+
+td,th
+{
+
+border:#a8c686 thin solid;
+padding:0.5em;
+
+}
+
+th
+{
+
+    text-align: center;
+    font-weight: bold;
+}
+
+table
+{
+
+    border-collapse: collapse;
+    margin:auto;
+}
+
+.highlight
+{
+
+ font-style: italic;
+ color: #e76f51;
+ 
+
+}
+
+#image
+{
+  border: #a8c686 thin solid ;
+  border-width: 3px;
+  margin:1em;
+}
+
+#resources
+{
+   list-style-type: none; 
+
+}
+
+#resources li
+{
+
+ text-decoration-line: none;
+ 
+}
+
+#resources a
+{
+
+     display:block;
+     color: #e76f51;
+     text-align: center;
+     
+
+}
+
+#resources a:hover
+{
+    color: #f4a261;
+}
+
+#last
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 70%;
+
+}
+
+.page
+{
+    width:80%;
+    margin: auto;
+}
+
+#headings
+{
+    background-color: floralwhite;
+    margin-bottom: 0.5em;
+
+}
+
+#navigation
+{
+    text-align: center;
+    padding: 0.5em;
+    margin:0.5em;
+    border-top: thin solid #a8c686;
+    border-bottom:thin solid #a8c686;
+}
+
+.flexContainer
+{
+    display: flex;
+    
+}
+
+
+#flexItem1
+{
+    flex:25%;
+    order:3;
+}
+
+#flexItem2
+{
+    flex:50%;
+    order:2;
+
+}
+
+#flexItem3
+{
+    flex:25%;
+    order: 1;
+}
+
+
+.flexContainer2
+{
+    display: flex;
+    align-items: center;
+}
+
+#flexItem4
+{
+    flex: 50%;
+    align-items: center;
+    
+}
+
+#flexItem5
+{
+    flex:50%;
+
+}
+
+h3
+{
+    text-align: center;
+}
+
+#p
+{
+    text-align: center;
+}
+
+.flexContainer3
+{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    align-items: center;
+    
+    
+}
+
+#flexItem6
+{
+    flex:33.33%;
+    height: 375px;
+}
+
+#flexItem7
+{
+    flex:33.33%;
+    height: 375px;
+}
+
+#flexItem8
+{
+    flex:33.33%;
+    height: 375px;
+}
+
+.flexContainer4
+{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    align-items: center;
+}
+
+#flexItem9
+{
+    flex:33.33%;
+    height: 375px;
+}
+
+#flexItem10
+{
+    flex:33.33%;
+    height: 375px;
+   
+}
+
+#flexItem11
+{
+    flex:33.33%;
+    height: 375px;
+}
+
+.flexContainer3 img
+{
+    border:none;
+}
+
+.flexContainer4 img
+{
+    border:none;
+}
+
+.flexContainer3 img:hover
+{
+    border: #a8c686 thin solid;
+    padding: 1em;
+    background-color: floralwhite;
+}
+
+.flexContainer4 img:hover
+{
+    border: #a8c686 thin solid;
+    padding: 1em;
+    background-color: floralwhite;
+}
+
+
+
+#menu a.active {
+    font-weight: bold;
+    background-color: floralwhite;
+    padding: 0.4em;
+    margin: 0.1em;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+    border-bottom: 1px dashed #6b4226;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #6b4226;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -125px;
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+fieldset {
+    border: 2px solid #a8c686;
+    padding: 2em; 
+}
+
+legend {
+    color: #6b4226;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+
+#feedback {
+    display: none;
+    color: green;
+}
+
+
+#dessert:checked  #feedback {
+    display: block;
+}

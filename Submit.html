@@ -1,0 +1,80 @@
+<html>
+    <head>
+
+    <title>Submit</title>
+    <link href="Styles/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <div class="page">
+
+       <header>    
+        <section id="headings">
+        <h1>Welcome to your personalised Recipe Book</h1>
+        <h2>Discover and share your favourite recipes! Whether you're a beginner or a seasoned chef, you'll find delicious meals to try</h2>
+        </section>
+      </header>   
+
+        <nav id="navigation">
+        <ol id="menu">
+
+            <li><a href="Home.html"> Home </a></li>
+            <li><a href="Essentials.html">Essentials</a></li>
+            <li><a href ="Recipes.html">Recipes</a></li>
+            <li><a href="Submit.html" class="active">Submit</a></li>
+        
+        </ol>
+        </nav>
+
+        <section id="submit-content">
+        <p>Submit your favourite recipe and your recipe could be featured on the site!</p>
+
+        <form action="mailto:isabellet@mandela.ac.za" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Recipe Submission</legend>
+
+                <div class="form-group">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="firstname">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <p>What type of recipe will satisfy your sweet tooth?</p>
+                
+                <input type="radio" id="breakfast" name="category" value="Breakfast">
+                <label for="breakfast">Breakfast</label><br>
+                
+                <input type="radio" id="lunch" name="category" value="Lunch">
+                <label for="lunch">Lunch</label><br>
+                
+                <input type="radio" id="dinner" name="category" value="Dinner">
+                <label for="dinner">Dinner</label><br>
+                
+                <!-- This ID is used for the CSS logic to show the H4 -->
+                <input type="radio" id="dessert" name="category" value="Desserts">
+                <label for="dessert">Desserts</label><br>
+
+                <!-- Feedback Heading -->
+                <h4 id="feedback">Correct! Desserts are the best for a sweet tooth.</h4>
+
+                <div class="form-group" style="margin-top: 1em;">
+                    <textarea rows="15" cols="100" placeholder="Type your recipe here"></textarea>
+                </div>
+
+                <input type="submit" value="Submit Recipe">
+            </fieldset>
+        </form>
+    </section>
+
+        <footer>
+        <p id="last">Created by Nkosephayo-March 2025</p>
+        </footer>
+
+        </div>
+    </body>
+</html>
